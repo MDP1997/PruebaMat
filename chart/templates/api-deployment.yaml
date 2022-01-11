@@ -26,12 +26,12 @@ spec:
               containerPort: 1600
               protocol: TCP
           readinessProbe: 
-            periodSeconds: 5
+            periodSeconds: 30
             httpGet:
               path: /apimaterias/v1/healthz
               port: 1600
           livenessProbe:
-            periodSeconds: 5
+            periodSeconds: 30
             httpGet:
               path: /apimaterias/v1/healthz
               port: 1600

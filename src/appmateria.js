@@ -29,7 +29,7 @@ app.get("/", (request, response) => {
     response.send("<html><body><h1>My Server.</h1></body></html>");
 });
 
-app.get("/apimaterias/v1/materias/healthz", (req, res) => {
+app.get("/apimaterias/v1/healthz", (req, res) => {
     
     res.sendStatus(200);
 
