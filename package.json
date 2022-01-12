@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/usevilla-fis-2021-g4/Servicio-Materias.git"
+    "url": "https://github.com/MDP1997/PruebaMat.git"
   },
   "scripts": {
     "test": "jest",
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "Laura Vargas y Miguel Diaz",
   "license": "ISC",
-  "homepage": "https://github.com/usevilla-fis-2021-g4/Servicio-Materias",
+  "homepage": "https://github.com/MDP1997/PruebaMat",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
