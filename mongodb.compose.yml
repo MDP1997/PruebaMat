@@ -1,4 +1,4 @@
-name: notas
+name: materias
 services:
   mongodb:
     image: mongo
