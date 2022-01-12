@@ -10,6 +10,6 @@ RUN npm install
 COPY . .
 
 
-EXPOSE 1600
+EXPOSE 2999
 
 CMD npm start
