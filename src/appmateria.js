@@ -11,7 +11,7 @@ app.use(express.json({limit: "50mb"}));
 app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 
 // settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 1600);
 
 //middlewares 
 app.use(cors());
@@ -29,7 +29,7 @@ app.get("/", (request, response) => {
     response.send("<html><body><h1>My Server.</h1></body></html>");
 });
 
-app.get("/apimaterias/v1/healthz", (req, res) => {
+app.get("/apimaterias/v1/materias/healthz", (req, res) => {
     
     res.sendStatus(200);
 

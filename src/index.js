@@ -20,7 +20,7 @@ main();*/
 const app = require('./appmateria');
 const dbConnect = require ('../src/database.js');
 
-var port = (process.env.PORT || 3000);
+var port = (process.env.PORT || 1600);
 
 console.log("Starting API server on port: " + port);
 
