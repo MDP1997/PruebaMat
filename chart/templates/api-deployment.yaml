@@ -23,7 +23,7 @@ spec:
           image: {{ .Values.apimaterias.image }}:{{ .Values.tag }}
           ports:
             - name: http
-              containerPort: 2999
+              containerPort: 3000
               protocol: TCP
           readinessProbe: 
             initialDelaySeconds: 10
