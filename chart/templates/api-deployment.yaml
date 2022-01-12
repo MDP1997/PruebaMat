@@ -26,9 +26,9 @@ spec:
               containerPort: 2999
               protocol: TCP
           readinessProbe: 
+            initialDelaySeconds: 10
             periodSeconds: 5
             httpGet:
-              initialDelaySeconds: 10
               path: /apimaterias/v1/healthz
               port: 2999
           livenessProbe:
